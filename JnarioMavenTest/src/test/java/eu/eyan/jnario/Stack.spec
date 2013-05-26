@@ -1,4 +1,4 @@
-package eu
+package eu.eyan.jnario
 
 import java.util.Stack
 
@@ -27,7 +27,7 @@ describe "A stack" {
     fact subject.size should be 0
 }
 
-describe Stack {
+describe Stack<?> {
 	fact subject.size should be 0
 	fact subject.size() should be 1-1 
 }

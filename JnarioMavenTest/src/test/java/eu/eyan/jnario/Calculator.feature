@@ -1,6 +1,6 @@
-package eu
+package eu.eyan.jnario
 
-import eu.*
+import eu.eyan.jnario.calculator.Calculator
 
 Feature: Calculator
 
@@ -26,3 +26,8 @@ Feature: Calculator
 		Then it prints "1" plus "1"
 			result => args.first.toInt + args.second.toInt
 		And it prints  "2"
+		
+	Scenario: Not implemented
+		Given NYI Given
+		When NYI When
+		Then NYI Then
